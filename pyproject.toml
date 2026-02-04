@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "king-aziz-bot"
+version = "1.0.0"
+description = "Telegram bot for King Abdulaziz Library"
+requires-python = ">=3.9"
+dependencies = [
+    "python-telegram-bot>=20.0",
+    "anthropic",
+]

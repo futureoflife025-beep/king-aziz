@@ -1,0 +1,23 @@
+# Environment variables
+.env
+
+# Database (optional - remove if you want to include it)
+# library.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.log
+check_db.py
